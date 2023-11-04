@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e58e198a61f1b704290efffa27e1611b, type: 3}
+  m_Name: AbilityMend
+  m_EditorClassIdentifier: 
+  id: b6d209b8-fa34-4775-a97e-5b69e9fffee4
+  title: Mend
+  icon: {fileID: 0}
+  cooldown: 4
+  cost: 3
+  pattern: []
+  targetedPattern: []
+  mendStatus: {fileID: 11400000, guid: dfa4150ba429c5b4f809acd2932bccfe, type: 2}
+  minHeal: 1
+  maxHeal: 4
+  abilityStrengthPerc: 0.015

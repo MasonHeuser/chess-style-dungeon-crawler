@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ff3610b4f8719d43907ea5d92b32201, type: 3}
+  m_Name: Idol
+  m_EditorClassIdentifier: 
+  id: 6fbb0cd1-fd3b-40de-80eb-6569cb40a51a
+  title: Aegis of Zeus
+  size: {x: 2, y: 3}
+  stackable: 1
+  maxStackSize: 2
+  sprite: {fileID: 21300000, guid: 2788589daa95bba4a8d8e86698a62990, type: 3}
+  type: 1
+  healthDecrease: -6
+  fire: {fileID: 11400000, guid: e7c40d96db9dd7e4d86989eaccb53b3e, type: 2}
+  vfx_Lightning: {fileID: 6889612904630833003, guid: 57c8715ac06cb844e9c9e8479c16ed60, type: 3}
+  vfx_Clouds: {fileID: 905911437858011131, guid: 05b6e43a804435d47adacc1d684ad32c, type: 3}

@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2388f308901d84542a318c20b3a032d9, type: 3}
+  m_Name: Warrior
+  m_EditorClassIdentifier: 
+  id: 3ae7224e-aca2-4bef-acb9-eede81d7f74e
+  title: Warrior
+  gender: 0
+  sprite: {fileID: -6630799092981149447, guid: 8d06a6eac6a1b6c4a9ff9df28e2d023b, type: 3}
+  spritePos: {x: 0, y: 0.3, z: 0}
+  overheadOffset: 1.05
+  health: 8
+  armor: 2
+  minDamage: 1
+  maxDamage: 4
+  accuracy: 0.55
+  pattern:
+  - {x: 0, y: 1, z: 0}
+  - {x: 1, y: 0, z: 0}
+  - {x: 0, y: -1, z: 0}
+  - {x: -1, y: 0, z: 0}
+  signature: {fileID: 0}
+  abilityPool: []
+  unitAssets:
+  - {fileID: 7201731517072148914, guid: 6ddd55455400951489ba51c7bbc4756f, type: 3}
+  audioAssets:
+  - {fileID: 8300000, guid: 9b32f436bad5f0a40b97dd62a5342cdf, type: 3}

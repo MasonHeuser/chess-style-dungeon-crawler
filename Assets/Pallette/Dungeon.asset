@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e435595df76d9e45ac72ae9d41fde24, type: 3}
+  m_Name: Dungeon
+  m_EditorClassIdentifier: 
+  randomFillPercent: 26
+  wall: {fileID: 11400000, guid: 13603dc3eec9f5a47a268daa4c673c00, type: 2}
+  pillar: {fileID: 11400000, guid: c79d025d294de4241adce33afb843062, type: 2}
+  floor: {fileID: 11400000, guid: 0522ef0f1821bff4daeef9117dabeacc, type: 2}
+  topBorder: {fileID: 11400000, guid: 0a8fccc1b11fe944f9e27f1c28a90cb7, type: 2}
+  rightBorder: {fileID: 11400000, guid: d76dcd3932f3f3b44a2c1393dc84b15f, type: 2}
+  leftBorder: {fileID: 11400000, guid: 5f0674c70ac5aeb4884e1a2c1d6d9a99, type: 2}
+  leftStraightCorner: {fileID: 11400000, guid: 5a0d87adfd7be4942a763f28b081a051, type: 2}
+  rightStraightCorner: {fileID: 11400000, guid: c2ed08adbace2c243a09a2e99fbad2f8, type: 2}
+  leftAngleCorner: {fileID: 11400000, guid: de89ea8d9df04a54e828872744c07c31, type: 2}
+  rightAngleCorner: {fileID: 11400000, guid: a0f00d83a54417b46a9ab81dd5dedf64, type: 2}
+  leftCorner: {fileID: 11400000, guid: 1733d6d216519264da38b598f0f16eb7, type: 2}
+  rightCorner: {fileID: 11400000, guid: 5ab96eb3fa02a8046b6ef0346d045e7a, type: 2}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 20b2cd882495f2a4a878b710ae349c31, type: 3}
+  m_Name: StatusMend
+  m_EditorClassIdentifier: 
+  id: 0ee04664-ac89-411b-a371-6df7fb806569
+  title: Mend
+  sprite: {fileID: 4108913069859323578, guid: 70f29545739932e44bd0dd26497214d0, type: 3}
+  statusType: 1
+  turnDuration: 2
+  minHeal: 1
+  maxHeal: 4
+  abilityStrengthPerc: 0.015

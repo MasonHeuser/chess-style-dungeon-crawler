@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e01440f4e6e7c3e448605f3eb4298d90, type: 3}
+  m_Name: Cleric
+  m_EditorClassIdentifier: 
+  id: 88de3ca8-996d-46ae-be55-9596fb10e879
+  title: Cleric
+  gender: 1
+  sprite: {fileID: -6630799092981149447, guid: 8d06a6eac6a1b6c4a9ff9df28e2d023b, type: 3}
+  spritePos: {x: 0, y: 0.3, z: 0}
+  overheadOffset: 0.95
+  health: 6
+  armor: 0
+  minDamage: 2
+  maxDamage: 4
+  abilityStrength: 40
+  accuracy: 0.65
+  criticalChance: 0.2
+  fireResistance: 0.1
+  lightResistance: 0.25
+  darkResistance: 0.5
+  pattern:
+  - {x: 0, y: 2, z: 0}
+  - {x: 1, y: 1, z: 0}
+  - {x: 2, y: 0, z: 0}
+  - {x: 1, y: -1, z: 0}
+  - {x: 0, y: -2, z: 0}
+  - {x: -1, y: -1, z: 0}
+  - {x: -2, y: 0, z: 0}
+  - {x: -1, y: 1, z: 0}
+  signature: {fileID: 11400000, guid: 47a9a46c900639e409356b4c7f685d3b, type: 2}
+  sigCharge: 65
+  abilityPool:
+  - {fileID: 11400000, guid: 1a13adc829bb92d4a8dcb7e161a017e5, type: 2}
+  - {fileID: 11400000, guid: a30027c6727513646b16a7192343de79, type: 2}
+  unitAssets: []
+  audioAssets: []

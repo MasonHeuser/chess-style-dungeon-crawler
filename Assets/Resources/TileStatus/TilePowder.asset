@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30fc50a77858e6d45bd95b5262760993, type: 3}
+  m_Name: TilePowder
+  m_EditorClassIdentifier: 
+  id: 7eab1f1d-b11d-4fce-9166-8a2ee79fdc16
+  title: Powder
+  color: {r: 0.46226418, g: 0.46226418, b: 0.46226418, a: 1}
+  effect: {fileID: 660754181915904610, guid: f0fdb791c7932f64da0599613ba88809, type: 3}
+  movementPenalty: 24
+  turnDuration: 4
+  denyElements: []
+  blindStatus: {fileID: 11400000, guid: c05fe40ae6c1786498650ad6d1851ab1, type: 2}
